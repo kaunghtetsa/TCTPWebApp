@@ -26,7 +26,7 @@
     </p> 
 
         <p>  
-        <asp:Label runat="server" ID="lblFrom" style="margin-left:600px;text-align:center">Choose From & To Date</asp:Label>  
+        <asp:Label runat="server" ID="lblFrom" style="margin-left:200px;text-align:center">Choose From & To Date</asp:Label>  
     </p>
         <asp:Calendar ID="fromDateCal" runat="server" OnSelectionChanged="FromDateChange"  style="float:left;padding-right:100px">
 </asp:Calendar>
