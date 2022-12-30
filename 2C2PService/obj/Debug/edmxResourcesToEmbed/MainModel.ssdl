@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TC2PEServiceDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CallLogs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserAgentName" Type="nvarchar" MaxLength="200" />
+    <Property Name="IPAddress" Type="nvarchar" MaxLength="20" />
+    <Property Name="FileType" Type="nvarchar" MaxLength="20" />
+    <Property Name="TransactionCount" Type="int" Nullable="false" />
+    <Property Name="IsSucceed" Type="bit" Nullable="false" />
+    <Property Name="PushedOn" Type="datetime" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="ServiceAccessRightID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ServiceAccessRight">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AuthenticationKey" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="PermissionLevel" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TransactionRecord">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CallLogID" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="CurrencyCode" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="TransactionDateTime" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CallLogs_ServiceAccessRight">
+    <End Role="ServiceAccessRight" Type="Self.ServiceAccessRight" Multiplicity="1" />
+    <End Role="CallLogs" Type="Self.CallLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceAccessRight">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CallLogs">
+        <PropertyRef Name="ServiceAccessRightID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transactions_CallLogs">
+    <End Role="CallLogs" Type="Self.CallLogs" Multiplicity="1" />
+    <End Role="TransactionRecord" Type="Self.TransactionRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CallLogs">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TransactionRecord">
+        <PropertyRef Name="CallLogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TC2PEServiceDBModelStoreContainer">
+    <EntitySet Name="CallLogs" EntityType="Self.CallLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiceAccessRight" EntityType="Self.ServiceAccessRight" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransactionRecord" EntityType="Self.TransactionRecord" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CallLogs_ServiceAccessRight" Association="Self.FK_CallLogs_ServiceAccessRight">
+      <End Role="ServiceAccessRight" EntitySet="ServiceAccessRight" />
+      <End Role="CallLogs" EntitySet="CallLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transactions_CallLogs" Association="Self.FK_Transactions_CallLogs">
+      <End Role="CallLogs" EntitySet="CallLogs" />
+      <End Role="TransactionRecord" EntitySet="TransactionRecord" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

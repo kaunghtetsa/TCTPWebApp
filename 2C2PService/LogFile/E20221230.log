@@ -1,0 +1,279 @@
+[12/30/2022 - 01:06:58] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:11:02] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:14:40] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 265
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 58
+[12/30/2022 - 01:15:19] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 265
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 58
+[12/30/2022 - 01:18:01] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <TransactionList xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:18:28] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <TransactionList xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:20:42] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <TransactionList xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:30:38] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 42). ---> System.InvalidOperationException: <TransactionList xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 266
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:32:20] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 265
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 58
+[12/30/2022 - 01:32:38] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (1, 2). ---> System.InvalidOperationException: <Transactions xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_ArrayOfTransactionReceiver()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 265
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 58
+[12/30/2022 - 01:45:40] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 270
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:52:05] [InsertTransaction] Message: System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 268
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:53:16] [InsertTransaction] Message: System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 268
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:54:39] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 270
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:55:21] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 270
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 01:56:31] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 270
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:16:44] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:17:04] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:19:35] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:20:18] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:23:32] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:36:09] [InsertTransaction] Message: System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read3_Transactions()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 271
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 59
+[12/30/2022 - 10:46:20] [InsertTransaction] Message: Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[TransactionReceiver]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Transactions', line 1, position 16.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 278
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 61
+[12/30/2022 - 10:48:24] [InsertTransaction] Message: Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[TransactionReceiver]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Transactions', line 1, position 16.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 278
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 61
+[12/30/2022 - 10:59:58] [InsertTransaction] Message: Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Transaction]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Transactions', line 1, position 16.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 280
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 61
+[12/30/2022 - 11:01:54] [InsertTransaction] Message: Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Transaction]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Transactions', line 1, position 16.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at ServiceRepository.DeserializeXmlStringToObject(String xmlString) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 280
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 61
+[12/30/2022 - 11:48:55] [DeserializeCSVStringToObject] Message: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at ServiceRepository.DeserializeCSVStringToObject(String RequestBody) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 327
+[12/30/2022 - 11:53:48] [InsertTransaction] Message: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.TransactionRecord'. The duplicate key value is (Invoice0000002).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 101
+[12/30/2022 - 11:54:11] [InsertTransaction] Message: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.TransactionRecord'. The duplicate key value is (Invoice0000002).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at ServiceRepository.InsertTransactions(String RequestBody, Boolean IsXML, Int32 CallLogID) in C:\OwnProject\2C2PService\2C2PService\ServiceCode\ServiceRepository.cs:line 101

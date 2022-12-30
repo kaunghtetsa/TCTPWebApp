@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TC2PEServiceDBModelStoreContainer" CdmEntityContainer="TCTPEntities">
+    <EntitySetMapping Name="ServiceAccessRights">
+      <EntityTypeMapping TypeName="TC2PEServiceDBModel.ServiceAccessRight">
+        <MappingFragment StoreEntitySet="ServiceAccessRight">
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="PermissionLevel" ColumnName="PermissionLevel" />
+          <ScalarProperty Name="AuthenticationKey" ColumnName="AuthenticationKey" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionRecords">
+      <EntityTypeMapping TypeName="TC2PEServiceDBModel.TransactionRecord">
+        <MappingFragment StoreEntitySet="TransactionRecord">
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TransactionDateTime" ColumnName="TransactionDateTime" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CallLogID" ColumnName="CallLogID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CallLogs">
+      <EntityTypeMapping TypeName="TC2PEServiceDBModel.CallLog">
+        <MappingFragment StoreEntitySet="CallLogs">
+          <ScalarProperty Name="ServiceAccessRightID" ColumnName="ServiceAccessRightID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="PushedOn" ColumnName="PushedOn" />
+          <ScalarProperty Name="IsSucceed" ColumnName="IsSucceed" />
+          <ScalarProperty Name="TransactionCount" ColumnName="TransactionCount" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="UserAgentName" ColumnName="UserAgentName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
