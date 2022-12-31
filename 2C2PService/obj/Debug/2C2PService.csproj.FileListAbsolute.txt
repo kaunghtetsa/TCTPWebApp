@@ -7,4 +7,3 @@ C:\OwnProject\2C2PService\2C2PService\bin\EntityFramework.xml
 C:\OwnProject\2C2PService\2C2PService\bin\EntityFramework.SqlServer.xml
 C:\OwnProject\2C2PService\2C2PService\obj\Debug\2C2PService.dll
 C:\OwnProject\2C2PService\2C2PService\obj\Debug\2C2PService.pdb
-C:\OwnProject\2C2PService\2C2PService\obj\Debug\2C2PService.csprojResolveAssemblyReference.cache

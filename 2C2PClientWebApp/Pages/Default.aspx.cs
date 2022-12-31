@@ -31,7 +31,7 @@ namespace _2C2PClientWebApp.Pages
                 {
                     string fe = System.IO.Path.GetExtension(openFileChooser.FileName).ToLower();
                     fe = fe.Remove(0, 1);
-                    if(openFileChooser.PostedFile.ContentLength>1024)
+                    if(openFileChooser.PostedFile.ContentLength>1048576)
                     {
                         Response.Write("<script LANGUAGE='JavaScript' >alert('Failed, your selected file size is larger than expected!')</script>");
                         return;
@@ -39,10 +39,11 @@ namespace _2C2PClientWebApp.Pages
                     if (fe == "csv" || fe == "xml")
                     {
                         FileUploadStatus.Text = "File Selected.";
-                        string fn = System.IO.Path.GetFileName(openFileChooser.PostedFile.FileName);
+                        string fn = DateTime.Now.ToString("HHmmss")+System.IO.Path.GetFileName(openFileChooser.PostedFile.FileName);
                         string FileLocation = Server.MapPath("upload") + "\\" + fn;
                         try
                         {
+                            openFileChooser.PostedFile.SaveAs(FileLocation);
                             string requestBody = "";
                             requestBody = File.ReadAllText(FileLocation);
                             string IPAddress = GetIPAddress();

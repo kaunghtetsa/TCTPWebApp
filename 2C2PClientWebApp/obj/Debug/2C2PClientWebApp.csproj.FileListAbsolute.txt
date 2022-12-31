@@ -17,4 +17,3 @@ C:\OwnProject\2C2PService\2C2PClientWebApp\bin\Microsoft.CodeDom.Providers.DotNe
 C:\OwnProject\2C2PService\2C2PClientWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\OwnProject\2C2PService\2C2PClientWebApp\obj\Debug\2C2PClientWebApp.dll
 C:\OwnProject\2C2PService\2C2PClientWebApp\obj\Debug\2C2PClientWebApp.pdb
-C:\OwnProject\2C2PService\2C2PClientWebApp\obj\Debug\2C2PClientWebApp.csprojResolveAssemblyReference.cache

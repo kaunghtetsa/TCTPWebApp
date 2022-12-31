@@ -128,7 +128,7 @@ public class ServiceRepository
             DateTime.TryParse(DateTimeFrom,out dtFrom);
 
             DateTime.TryParse(DateTimeTo, out dtTo);
-            if (dtFrom < dtTo)
+            if (dtFrom <= dtTo)
             {
                 tranResult = tc2pEntities.TransactionRecords.Where(x => x.TransactionDateTime >= dtFrom && x.TransactionDateTime <= dtTo
                 && x.Active == true).Select(S => new TransactionResult()
